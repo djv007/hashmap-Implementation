@@ -214,3 +214,45 @@ int main()
 	
 	return 0;
 }
+
+
+/* 
+Output of the above code is as follows :
+
+Load factor determines how many nodes are there in one linked list where each node signifies a key in our hashmap , i have done rehashing after load factor reaches 0.7 , so this means  on an average there are less than 1 node in a linked list to make search , insert , delete operations in my hashmap in O(1) time
+
+Current Load factor after inserting  element no. 1  : 0.2
+
+Current Load factor after inserting  element no. 2  : 0.4
+
+Current Load factor after inserting  element no. 3  : 0.6
+
+Current Load factor after inserting  element no. 4  : 0.4
+
+Current Load factor after inserting  element no. 5  : 0.5
+
+Current Load factor after inserting  element no. 6  : 0.6
+
+Current Load factor after inserting  element no. 7  : 0.7
+
+Current Load factor after inserting  element no. 8  : 0.4
+
+Current Load factor after inserting  element no. 9  : 0.45
+
+Current Load factor after inserting  element no. 10  : 0.5
+Key :  Value :
+
+abc0      1
+abc1      2
+abc2      3
+abc3      4
+abc4      5
+abc5      6
+abc6      7
+abc7      8
+abc8      9
+abc9      10
+No. of elements in the map  : 10
+No. of elements in the map after removing 2 elements  : 8
+
+*/
