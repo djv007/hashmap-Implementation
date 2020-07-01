@@ -1,5 +1,6 @@
-# hashmap-Implementation
-Here i have made a hashmap in C++ language . key of the hashmap is of type string and value stored is of type integer . 
+# Hashmap-Implementation
+Here i have made a hashmap in C++ language and OOP paradigm . 
+Key of the hashmap is of type string and value stored is of type integer . 
 
 i have used an array to implement hashmap . 
 each element of the array is a linked list , where each element of the array is the head of the linked list stored at that index .
